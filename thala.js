@@ -47,7 +47,7 @@ function handleSearch() {
       var video = document.getElementById("video");
       video.play();
     } else {
-      playerDiv.innerHTML = "<h2>'Toot gya me to 😔'</h2>";
+      playerDiv.innerHTML = "<h2>'Thala not for a reason krke aukat dikha di 😔'</h2>";
       playerDiv.innerHTML +=
         "<video id='video'><source src='./assets/Aukat dikha di meme.mp4' /></video>";
       var video = document.getElementById("video");

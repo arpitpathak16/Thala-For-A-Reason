@@ -41,7 +41,7 @@ function handleSearch() {
       video.endTime = 30;
       video.play();
     } else if (result === 9) {
-      playerDiv.innerHTML = "<h2>'This time, Cheeku For A Reason 😎'</h2>";
+      playerDiv.innerHTML = "<h2>'This time, Chiku For A Reason 😎'</h2>";
       playerDiv.innerHTML +=
         "<video id='video'><source src='./assets/Virat_dance.mp4' /></video>";
       var video = document.getElementById("video");
@@ -71,7 +71,7 @@ function handleSearch() {
       searchText === "9" ||
       searchText === "18"
     ) {
-      playerDiv.innerHTML = "<h2>'This time, For A Reason 😎'</h2>";
+      playerDiv.innerHTML = "<h2>'This time, Chiku For A Reason 😎'</h2>";
       playerDiv.innerHTML +=
         "<video id='video'><source src='./assets/Virat_dance.mp4' /></video>";
       var video = document.getElementById("video");

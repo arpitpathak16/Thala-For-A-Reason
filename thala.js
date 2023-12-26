@@ -47,7 +47,8 @@ function handleSearch() {
       var video = document.getElementById("video");
       video.play();
     } else {
-      playerDiv.innerHTML = "<h2>'Thala not for a reason krke aukat dikha di 😔'</h2>";
+      playerDiv.innerHTML =
+        "<h2>'Thala is not for a reason krke aukat dikhadi 😔'</h2>";
       playerDiv.innerHTML +=
         "<video id='video'><source src='./assets/Aukat dikha di meme.mp4' /></video>";
       var video = document.getElementById("video");
@@ -92,7 +93,12 @@ function handleSearch() {
       searchText === "Sakshi" ||
       searchText === "sakshi" ||
       searchText === "Ranchi" ||
-      searchText === "ranchi"
+      searchText === "ranchi" ||
+      searchText === "thala for a reason" ||
+      searchText === "Thala for a reason" ||
+      searchText === "Thala For A Reason" ||
+      searchText === "Thala For a Reason" ||
+      searchText === "thala for A reason"
     ) {
       playerDiv.innerHTML = "<h2>'Clearly,Thala For A Reason 💪'</h2>";
       playerDiv.innerHTML +=

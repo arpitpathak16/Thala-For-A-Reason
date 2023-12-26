@@ -98,7 +98,10 @@ function handleSearch() {
       searchText === "Thala for a reason" ||
       searchText === "Thala For A Reason" ||
       searchText === "Thala For a Reason" ||
-      searchText === "thala for A reason"
+      searchText === "thala for A reason" ||
+      searchText === "thalaforareason" ||
+      searchText === "Thalaforareason" ||
+      searchText === "ThalaForAReason"
     ) {
       playerDiv.innerHTML = "<h2>'Clearly,Thala For A Reason 💪'</h2>";
       playerDiv.innerHTML +=

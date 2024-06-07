@@ -1,4 +1,6 @@
 # Thala-For-A-Reason
+Try Here: https://arpitpathak16.github.io/Thala-For-A-Reason/
+
 ## There are surprising things in there, try it once 
 This small fun project checks "Thala For A Reason", if the given string:
 1. is all numbers then it will sum all the numbers until one digit remains as a sum
